@@ -1,0 +1,183 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.logo {
+  display: block;
+  width: 40px;
+  height: auto;
+  top: 2%;
+  left: 1%;
+  position: fixed;
+  z-index:5
+}
+/* Navigation Bar */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  z-index: 4;
+  position: relative;
+
+}
+
+li {
+  float: right;  
+}
+
+li a {
+  display: block;
+  color: white;
+  text-shadow: 3px 3px 4px #000;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: 0.4s;
+  
+}
+
+li a:hover {
+  text-shadow: 3px 3px 4px #14db7e;
+  color: #14db7e;
+}
+
+#banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), #4d88cc93),
+    url(images/controller.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+
+#banner-text {
+  text-align: center;
+  padding-top: 200px;
+  font-size: 100px;
+  transition: 0.5s;
+  color: white;
+  text-shadow: 3px 3px 4px #000;
+}
+#banner-text:hover {
+  text-shadow: 3px 3px 4px #c731bf;
+}
+
+#action {
+  background: linear-gradient(#4d88cc93, rgba(0, 0, 0, 0.5), #4d88cc93),
+    url(images/justin.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#action-text {
+  display: block;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 100px;
+  transition: 0.5s;
+  color: white;
+  text-shadow: 3px 3px 4px #000;
+  text-decoration: none;
+}
+#action-text:hover {
+  text-shadow: 3px 3px 4px #44aa7b;
+  text-decoration: none;
+}
+#adventure {
+  background: linear-gradient(#4d88cc93, rgba(0, 0, 0, 0.5), #4d88cc93),
+    url(images/wallhaven.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+}
+#adventure-text {
+  display: block;
+  text-align: center;
+  padding-top: 300px;
+  font-size: 100px;
+  transition: 0.5s;
+  color: white;
+  text-shadow: 3px 3px 4px #000;
+  text-decoration: none;
+}
+#adventure-text:hover {
+  text-shadow: 3px 3px 4px #44aa7b;
+  text-decoration: none;
+}
+.footer-basic {
+  padding: 40px 0;
+  background: linear-gradient(#4d88cc93, rgba(0, 0, 0, 0.5), #cd4ae493);
+ 
+}
+
+.footer-basic .social {
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.footer-basic .social > a {
+  font-size: 24px;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10%;
+  border: 1px solid #ccc;
+  margin: 0 8px;
+  background: linear-gradient()
+  opacity: 0.75;
+}
+
+.footer-basic .social > a:hover {
+  opacity: 0.8;
+}
+
+.footer-basic .copyright {
+  margin-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: rgb(251, 251, 251);
+  margin-bottom: 0;
+}
+
+.about-us{
+  background: linear-gradient(#4d88cc93, rgba(0, 0, 0, 0.5), #4d88cc93);
+  text-align: justify;
+  font-size: medium;
+}
+
+.contact-form{
+  background: linear-gradient(#4d88cc93, rgba(0, 0, 0, 0.5), #4d88cc93);
+  align-items: center;
+  align-content: center;
+}
+/*
+img {
+  display: block;
+  width: 75%;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+body {
+  
+  background-image: linear-gradient(#b813be93,#633767, #118ab2b7);
+} 
+
+h1 {
+  text-align: center;
+  width:fit-content
+  height: 2em;
+  font-size: 5em;
+  color: #2B2C28 ;
+  text-shadow: 3px 3px 4px #000000;
+}
+*/
